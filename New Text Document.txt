@@ -1,0 +1,86 @@
+About this file
+
+Suggest Edits
+Student ID
+StudentID: A unique identifier assigned to each student (1001 to 3392).
+Demographic Details
+Age: The age of the students ranges from 15 to 18 years.
+Gender: Gender of the students, where 0 represents Male and 1 represents Female.
+Ethnicity: The ethnicity of the students, coded as follows:
+0: Caucasian
+1: African American
+2: Asian
+3: Other
+ParentalEducation: The education level of the parents, coded as follows:
+0: None
+1: High School
+2: Some College
+3: Bachelor's
+4: Higher
+Study Habits
+StudyTimeWeekly: Weekly study time in hours, ranging from 0 to 20.
+Absences: Number of absences during the school year, ranging from 0 to 30.
+Tutoring: Tutoring status, where 0 indicates No and 1 indicates Yes.
+Parental Involvement
+ParentalSupport: The level of parental support, coded as follows:
+0: None
+1: Low
+2: Moderate
+3: High
+4: Very High
+Extracurricular Activities
+Extracurricular: Participation in extracurricular activities, where 0 indicates No and 1 indicates Yes.
+Sports: Participation in sports, where 0 indicates No and 1 indicates Yes.
+Music: Participation in music activities, where 0 indicates No and 1 indicates Yes.
+Volunteering: Participation in volunteering, where 0 indicates No and 1 indicates Yes.
+Academic Performance
+GPA: Grade Point Average on a scale from 2.0 to 4.0, influenced by study habits, parental involvement, and extracurricular activities.
+Target Variable: Grade Class
+GradeClass: Classification of students' grades based on GPA:
+0: 'A' (GPA >= 3.5)
+1: 'B' (3.0 <= GPA < 3.5)
+2: 'C' (2.5 <= GPA < 3.0)
+3: 'D' (2.0 <= GPA < 2.5)
+4: 'F' (GPA < 2.0)
+
+# linear regression
+MAE: 0.15550497424468315
+MSE: 0.03873086952690296
+RMSE: 0.19680159940128272
+R²: 0.9531643994866295
+
+#polynomial regression
+MAE : 0.15550497424468315
+MSE : 0.03873086952690296
+RMSE: 0.19680159940128272
+R²  : 0.9531643994866295
+
+#ridge regression
+Ridge MAE : 0.15550799911122729
+Ridge MSE : 0.03873219609719199
+Ridge RMSE: 0.19680496969637729
+Ridge R²  : 0.9531627953213507
+
+#Lasso regression
+Lasso MAE : 0.15810476210396762
+Lasso MSE : 0.04074694155560868
+Lasso RMSE: 0.20185871681849332
+Lasso R²  : 0.9507264489501187
+
+#random forest
+RF MAE : 0.1938365083507307
+RF MSE : 0.0621121260856312
+RF RMSE: 0.24922304485266045
+RF R²  : 0.9248904359773783
+
+#XGBOOST
+XGBoost MAE : 0.1987369976990656
+XGBoost MSE : 0.0625983879101502
+XGBoost RMSE: 0.250196698439748
+XGBoost R²  : 0.9243024201430771
+
+#LightGBM
+LightGBM MAE : 0.17894649843437732
+LightGBM MSE : 0.0502124313836224
+LightGBM RMSE: 0.22408130529703366
+LightGBM R²  : 0.9392802329042773
